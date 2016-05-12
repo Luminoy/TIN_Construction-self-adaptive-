@@ -803,7 +803,7 @@ void CGISTinView::AdaptiveDivision(Queue *&head, Queue *&rear, int ndivision, Gr
 	while (head != NULL)
 	{
 		BinaryTree *pTreenode = head->treenode;
-	    if (pTreenode->nLevel == ndivision)       //达到分裂次数是停止
+	    if (pTreenode->nLevel == ndivision)       //达到分裂次数时停止
 		{
 		    return;
 		}	
